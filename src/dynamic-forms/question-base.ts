@@ -1,10 +1,10 @@
 /**
  * Created by Jamie on 2016-08-25.
  */
-import { ValidatorFn } from "@angular/forms";
+import { ValidatorFn } from '@angular/forms';
 
-interface ErrorMessageCallback {
-    (validationResult:{[s: string]: boolean}):string
+export interface ErrorMessageCallback {
+    (validationResult: {[s: string]: boolean}): string;
 }
 
 export class QuestionBase<T> {
@@ -14,7 +14,7 @@ export class QuestionBase<T> {
     label: string;
     validators: ValidatorFn[];
     controlType: string;
-    getErrorMessage:ErrorMessageCallback;
+    getErrorMessage: ErrorMessageCallback;
 
     constructor(options: {
         value?: T,
@@ -32,8 +32,8 @@ export class QuestionBase<T> {
         this.getErrorMessage = options.errorMessageCallback || this.defualtErrorMessageCallback;
     }
 
-    defualtErrorMessageCallback(validationResult:{[s: string]: boolean}):string {
-        return this.label + " is required";
+    defualtErrorMessageCallback(validationResult: {[s: string]: boolean}): string {
+        return this.label + ' is required';
     }
 
 }
