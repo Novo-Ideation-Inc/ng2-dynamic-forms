@@ -1,0 +1,14 @@
+<div>
+    <form [formGroup]="form">
+
+        <div *ngFor="let question of questions" class="form-row">
+            <df-field [question]="question" [form]="form"></df-field>
+        </div>
+
+        <div class="form-row">
+            <button (click)="submit(form)" [disabled]="!form.valid" class="btn btn-primary">{{submitText}}</button>
+            <p class="error">{{postSubmitError}}</p>
+        </div>
+
+    </form>
+</div>

@@ -1,0 +1,13 @@
+<div [formGroup]="form" class="form-group">
+    <label [attr.for]="question.key">{{question.label}}</label>
+
+    <div [ngSwitch]="question.controlType">
+
+        <input *ngSwitchCase="'textfield'" [formControlName]="question.key"
+            [id]="question.key" [type]="question.type" class="form-control" [ngModel]="form.value[question.key]">
+
+    </div>
+
+    <div class="error" *ngIf="!isValid && isTouched">{{question.getErrorMessage(validationResult())}}</div>
+
+</div>
