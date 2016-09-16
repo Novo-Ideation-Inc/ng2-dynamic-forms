@@ -38,5 +38,5 @@ jspm_packages
 
 #editor
 .idea
-/typings/
-/typings.json
+typings/
+typings.json
