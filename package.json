@@ -1,6 +1,6 @@
 {
   "name": "ng2-dynamic-forms",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Dynamic forms module for Angular2 apps",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
