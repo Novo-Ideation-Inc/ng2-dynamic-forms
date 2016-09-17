@@ -8,7 +8,7 @@ export class TextfieldQuestion extends QuestionBase<string> {
     controlType = 'textfield';
     type: string;
 
-    constructor(options: {} = {}) {
+    constructor(options: {[key: string]: string} = {}) {
         super(options);
         this.type = options[ 'type' ] || '';
     }
