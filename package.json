@@ -1,42 +1,43 @@
 {
-  "name": "ng2-dynamic-forms",
-  "version": "1.0.5",
-  "description": "Dynamic forms module for Angular2 apps",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
-  "scripts": {
-    "lint": "tslint src/**/*.ts",
-    "test": "echo 'No tests yet'",
-    "preversion": "tsc",
-    "tsc": "tsc",
-    "typings": "typings"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Novo-Ideation-Inc/ng2-dynamic-forms.git"
-  },
-  "keywords": [
-    "angular",
-    "angular2",
-    "dynamic",
-    "forms"
-  ],
-  "author": "Jamie Bertram <jamie@novoideation.ca> (http://www.novoideation.ca)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Novo-Ideation-Inc/ng2-dynamic-forms/issues"
-  },
-  "homepage": "https://github.com/Novo-Ideation-Inc/ng2-dynamic-forms#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@angular/common": "^2.0.0",
-    "@angular/core": "^2.0.0",
-    "@angular/forms": "^2.0.0",
-    "codelyzer": "0.0.28",
-    "rxjs": "^5.0.0-beta.12",
-    "tslint": "^3.15.1",
-    "typescript": "^1.8.10",
-    "typings": "^1.3.3",
-    "zone.js": "^0.6.23"
-  }
+    "name": "ng2-dynamic-forms",
+    "version": "1.0.5",
+    "description": "Dynamic forms module for Angular2 apps",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts",
+    "scripts": {
+        "lint": "tslint src/**/*.ts",
+        "test": "echo 'No tests yet'",
+        "preversion": "tsc",
+        "prepublish": "tsc",
+        "tsc": "tsc",
+        "typings": "typings"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Novo-Ideation-Inc/ng2-dynamic-forms.git"
+    },
+    "keywords": [
+        "angular",
+        "angular2",
+        "dynamic",
+        "forms"
+    ],
+    "author": "Jamie Bertram <jamie@novoideation.ca> (http://www.novoideation.ca)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Novo-Ideation-Inc/ng2-dynamic-forms/issues"
+    },
+    "homepage": "https://github.com/Novo-Ideation-Inc/ng2-dynamic-forms#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "@angular/common": "^2.0.0",
+        "@angular/core": "^2.0.0",
+        "@angular/forms": "^2.0.0",
+        "codelyzer": "0.0.28",
+        "rxjs": "^5.0.0-beta.12",
+        "tslint": "^3.15.1",
+        "typescript": "^1.8.10",
+        "typings": "^1.3.3",
+        "zone.js": "^0.6.23"
+    }
 }
