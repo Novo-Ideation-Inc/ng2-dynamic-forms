@@ -4,6 +4,7 @@ test:
 
 deployment:
   npm:
-    tag: /v[0-9]+(\.[0-9]+)*/
+    branch: master
     commands:
+      - echo -e "$NPM_USERNAME\n$NPM_PASSWORD\n$NPM_EMAIL" | npm login
       - npm publish
