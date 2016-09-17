@@ -10,7 +10,7 @@ export class QuestionControlService {
     constructor(private formBuilder: FormBuilder) {
     }
 
-    group(questions: QuestionBase<any>[], extra?: {}) : FormGroup {
+    group(questions: QuestionBase<any>[], extra?: {}): FormGroup {
         let group: any = {};
 
         questions.forEach(question => {
