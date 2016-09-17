@@ -7,9 +7,9 @@
   "scripts": {
     "lint": "tslint src/**/*.ts",
     "test": "echo 'No tests yet'",
-    "preversion": "tsc",
-    "prepublish": "tsc",
-    "tsc": "tsc",
+    "preversion": "npm run build",
+    "prepublish": "npm run build",
+    "build": "tsc && cp src/dynamic-forms/*.html dist/dynamic-forms/ && cp src/dynamic-forms/*.css dist/dynamic-forms/",
     "typings": "typings install"
   },
   "repository": {
