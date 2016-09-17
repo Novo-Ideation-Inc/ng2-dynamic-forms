@@ -39,5 +39,4 @@ jspm_packages
 #editor
 .idea
 typings/
-typings.json
 /dist/

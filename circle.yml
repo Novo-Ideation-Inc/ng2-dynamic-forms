@@ -1,3 +1,7 @@
+dependencies:
+  pre:
+    - npm run typings
+
 test:
   pre:
     - npm run lint

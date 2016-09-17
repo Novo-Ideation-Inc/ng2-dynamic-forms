@@ -10,7 +10,7 @@
     "preversion": "tsc",
     "prepublish": "tsc",
     "tsc": "tsc",
-    "typings": "typings"
+    "typings": "typings install"
   },
   "repository": {
     "type": "git",
