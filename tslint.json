@@ -17,10 +17,6 @@
         ],
         "label-position": true,
         "label-undefined": true,
-        "max-line-length": [
-            true,
-            140
-        ],
         "member-access": false,
         "member-ordering": [
             true,
